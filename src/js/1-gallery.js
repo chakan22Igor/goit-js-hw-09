@@ -1,5 +1,6 @@
-import SimpleLightbox from "../simplelightbox";
+import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
+import "../css/styles.css";
 
 const images = [
   {
@@ -88,5 +89,5 @@ galleryContainer.innerHTML = galleryHTML;
 
 const lightbox = new SimpleLightbox(".gallery a", {
   captionsData: "alt",
-  captionDelay: 250
+  captionDelay: 250,
 });

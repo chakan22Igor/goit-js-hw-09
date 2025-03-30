@@ -16,3 +16,81 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 1440px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 24px;
+}
+.gallery-item{
+list-style: none;
+}
+.gallery-image{
+  width: 360px;
+  height: 200px;
+  transition: 250ms;
+}
+
+.gallery-image:hover{
+  transform: scale(1.0444);
+}
+.sl-overlay{
+  background: rgba(46, 47, 66, 0.8);
+}
+.sl-wrapper{
+  justify-content: center;
+  width: 1112px;
+  height: 640px;
+}
+.sl-image{
+  width: 1112px;
+  height: 640px;
+}
+.feedback-form label{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  row-gap: 8px;
+}
+.feedback-form{
+  width: 360px;
+  height: 192px;
+  margin: auto;
+}
+.email{
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+}
+.message{
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 80px;
+}
+.btn{
+  margin-top: 8px;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border: 0;
+}
+.btn:hover{
+  background: #6c8cff;
+}
+.form-box{
+padding: 24px;
+}

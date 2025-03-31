@@ -5,65 +5,65 @@ import "../css/styles.css";
 const images = [
   {
     preview:
-      "/img/1.jpg",
+      "img/1.jpg",
     original:
-      "/img/1.jpg",
+      "img/1.jpg",
     description: "Plan",
   },
   {
     preview:
-      "/img/2.jpg",
+      "img/2.jpg",
     original:
-      "/img/2.jpg",
+      "img/2.jpg",
     description: "lamp",
   },
   {
     preview:
-      "/img/3.jpg",
+      "img/3.jpg",
     original:
-      "/img/3.jpg",
+      "img/3.jpg",
     description: "phone",
   },
   {
     preview:
-      "/img/2-1.jpg",
+      "img/2-1.jpg",
     original:
-      "/img/2-1.jpg",
+      "img/2-1.jpg",
     description: "kitchen",
   },
   {
     preview:
-      "/img/2-2.jpg",
+      "img/2-2.jpg",
     original:
-      "/img/2-2.jpg",
+      "img/2-2.jpg",
     description: "room",
   },
   {
     preview:
-      "/img/2-3.jpg",
+      "img/2-3.jpg",
     original:
-      "/img/2-3.jpg",
+      "img/2-3.jpg",
     description: "office",
   },
   {
     preview:
-      "/img/3-1.jpg",
+      "img/3-1.jpg",
     original:
-      "/img/3-1.jpg",
+      "img/3-1.jpg",
     description: "coffee",
   },
   {
     preview:
-      "/img/3-2.jpg",
+      "img/3-2.jpg",
     original:
-      "/img/3-2.jpg",
+      "img/3-2.jpg",
     description: "sweater",
   },
   {
     preview:
-      "/img/3-3.jpg",
+      "img/3-3.jpg",
     original:
-      "/img/3-3.jpg",
+      "img/3-3.jpg",
     description: "presentation",
   },
 ];

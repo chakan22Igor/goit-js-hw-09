@@ -2,69 +2,71 @@ import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import "../css/styles.css";
 
+const basePath = import.meta.env.BASE_URL;
+
 const images = [
   {
     preview:
-      "img/1.jpg",
+      `${basePath}img/1.jpg`,
     original:
-      "img/1.jpg",
+      `${basePath}img/1.jpg`,
     description: "Plan",
   },
   {
     preview:
-      "img/2.jpg",
+      `${basePath}img/2.jpg`,
     original:
-      "img/2.jpg",
-    description: "lamp",
+      `${basePath}img/2.jpg`,
+    description: `lamp`,
   },
   {
     preview:
-      "img/3.jpg",
+      `${basePath}img/3.jpg`,
     original:
-      "img/3.jpg",
-    description: "phone",
+      `${basePath}img/3.jpg`,
+    description: `phone`,
   },
   {
     preview:
-      "img/2-1.jpg",
+      `${basePath}img/2-1.jpg`,
     original:
-      "img/2-1.jpg",
-    description: "kitchen",
+      `${basePath}img/2-1.jpg`,
+    description: `kitchen`,
   },
   {
     preview:
-      "img/2-2.jpg",
+      `${basePath}img/2-2.jpg`,
     original:
-      "img/2-2.jpg",
-    description: "room",
+      `${basePath}img/2-2.jpg`,
+    description: `room`,
   },
   {
     preview:
-      "img/2-3.jpg",
+      `${basePath}img/2-3.jpg`,
     original:
-      "img/2-3.jpg",
-    description: "office",
+      `${basePath}img/2-3.jpg`,
+    description: `office`,
   },
   {
     preview:
-      "img/3-1.jpg",
+      `${basePath}img/3-1.jpg`,
     original:
-      "img/3-1.jpg",
-    description: "coffee",
+      `${basePath}img/3-1.jpg`,
+    description: `coffee`,
   },
   {
     preview:
-      "img/3-2.jpg",
+      `${basePath}img/3-2.jpg`,
     original:
-      "img/3-2.jpg",
-    description: "sweater",
+      `${basePath}img/3-2.jpg`,
+    description: `sweater`,
   },
   {
     preview:
-      "img/3-3.jpg",
+      `${basePath}img/3-3.jpg`,
     original:
-      "img/3-3.jpg",
-    description: "presentation",
+      `${basePath}img/3-3.jpg`,
+    description: `presentation`,
   },
 ];
 

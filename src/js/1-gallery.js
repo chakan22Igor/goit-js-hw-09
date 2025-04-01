@@ -78,7 +78,7 @@ const galleryHTML = images
       <a class="gallery-link" href="${image.original}">
         <img
           class="gallery-image"
-          src="${image.original}"
+          src="${image.preview}"
           alt="${image.description}"
         />
       </a>
